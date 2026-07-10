@@ -1,6 +1,6 @@
-# 6 7 Robot
+# 67 Robot
 
-The 6 7 Robot is a voice-activated robot that reacts when it hears “six” and “seven.”
+The 67 Robot is a voice-activated robot that reacts when it hears “six” and “seven.”
 
 It uses an ESP32-WROOM with an Edge Impulse audio model for word detection. When the correct sequence is recognized, the ESP32 controls a TT motor through an L298N motor driver.
 
