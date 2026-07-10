@@ -7,12 +7,11 @@ It uses an ESP32-WROOM with an Edge Impulse audio model for word detection. When
 ## Parts
 
 * ESP32-WROOM
-* Microphone
+* Bluetooth Microphone
 * L298N motor driver
 * TT motor
 * VEX IQ battery and power switch
 * 3D-printed base, body, and gearbox
-* Bluetooth connection
 
 ## How It Works
 
@@ -20,8 +19,6 @@ It uses an ESP32-WROOM with an Edge Impulse audio model for word detection. When
 2. Edge Impulse detects the words “six” and “seven.”
 3. The ESP32 checks that they were heard in the correct order.
 4. The motor activates and the robot reacts.
-
-Bluetooth can also be used for testing, debugging, or manual motor control.
 
 ## Setup
 
